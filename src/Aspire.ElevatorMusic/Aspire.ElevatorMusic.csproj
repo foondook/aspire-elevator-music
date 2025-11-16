@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Aspire.ElevatorMusic</PackageId>
+    <Description>A package that adds elevator music to your Aspire setup.</Description>
+    <Author>Vitalii Moiseenko</Author>
+    <Product>Aspire.ElevatorMusic</Product>
+    <Copyright>Copyright © Vitalii Moiseenko 2025</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyName>Aspire.ElevatorMusic</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Music/elevator.mp3" />
+  </ItemGroup>
+
+</Project>
